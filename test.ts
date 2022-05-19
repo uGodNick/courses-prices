@@ -72,4 +72,6 @@ const sortCourses = function (courses: Course[], sortType: number): Course[] {
       return b.prices[0] - a.prices[0]
     })
   }
+
+  return courses
 }
